@@ -1,0 +1,19 @@
+{
+  "name": "test-back-end",
+  "version": "1.0.0",
+  "description": "Repositório para testes Back End",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/index.js",
+    "start": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.17.0"
+  }
+}
